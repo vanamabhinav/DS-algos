@@ -66,7 +66,7 @@ struct Node* printList(head){
 }
 
 void addNodeAt(int data,int index){
-
+    //traverse to next to the index node and add new node
     struct Node* newNode= createNode(data);
     struct Node* pointer = head;
     int i = 0;
